@@ -1,4 +1,0 @@
-markdown: redcarpet
-permalink: /:year/:i_month/:i_day/:title.html
-exclude: [Rakefile, Gemfile, Gemfile.lock, README.md, Capfile, bin, s3_website.yml, tmp]
-paginate: 3
