@@ -1,0 +1,29 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <atom:link href="https://subiyacryolite.github.io/rss.xml" rel="self" type="application/rss+xml" />
+    <title>Ifunga Ndana's Blog</title>
+    <link>https://subiyacryolite.github.io</link>
+    <language>en</language>
+    <webMaster>ifungandana@gmail.com (Ifunga Ndana)</webMaster>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <copyright>Copyright 2017+</copyright>
+    <ttl>60</ttl>
+    <description>mathias meyer</description>
+    {% for post in site.posts limit:10 %}
+    <item>
+      <title>{{ post.title }}</title>
+      <link>https://subiyacryolite.github.io{{ post.url }}</link>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <guid>https://subiyacryolite.github.io{{ post.url }}</guid>
+      <description>{{ post.content | xml_escape }}</description>
+      {% for topic in post.topics %}
+      <category domain="https://subiyacryolite.github.io/tags/{{ topic }}">{{ topic }}</category>
+      {% endfor %}
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

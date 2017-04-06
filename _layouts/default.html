@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>Ifunga Ndana's Blog - {{ page.title }}</title>
+    <meta name="robots" content="index,follow"/>
+    <meta name="mssmarttagspreventparsing" content="true"/>
+    <link rel="shortcut icon" href="/images/favicon.gif" type="image/gif" />
+    <link rel="icon" href="/images/favicon.gif" type="image/gif" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  	<meta name="author" content="Ifunga Ndana"/>
+    <meta name="dc.title" content="Ifunga Ndana's Blog - {{ page.title }}"/>
+  	<link rel="start" href="https://subiyacryolite.github.io" title="Ifunga Ndana's Blog"/>
+    {% unless page.hide_twitter_card %} 
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="{{ page.title | truncate:70}}"/>
+    <meta name="twitter:site" content="@subiyacryolite"/>
+    <meta name="twitter:creator" content="@subiyacryolite"/>
+    <meta name="twitter:description" content="{{ page.content | markdownify | strip_html | truncate:200 }}"/>
+    <meta name="twitter:url" content="https://subiyacryolite.github.io{{ page.url }}"/>
+    <meta name="twitter:domain" content="subiyacryolite.github.io"/>
+    {% endunless %}
+    <link href="https://subiyacryolite.github.io/rss.xml" rel="alternate" title="Primary Feed" type="application/rss+xml" />
+    <!-- <link href="/stylesheets/screen.css" media="screen" rel="Stylesheet" title="paperplanes" type="text/css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="/stylesheets/mobile.css" media="handheld, only screen and (max-device-width: 960px)" /> -->
+  </head>
+  
+  <body id="www-paperplanes-de">
+    <div id="head">
+      <div id="header-content">
+        <a href="/">
+          <!----><img src="/images/paperplane.png" id="paperplane">-->
+        </a>
+        <div id="about">
+          <h1 class="default">Hi, I'm Ifunga Ndana, nice to meet you!</h1>
+          <h1 class="mobile">Hi, I'm <a href="https://twitter.com/subiyacryolite">Ifunga Ndana</a>, I enjoy developing software, drawing comics and playing video games</h1>
+          <p style="color: white" class="about-sub-title default">
+          I enjoy developing software, drawing comics and playing video games. <a href="https://twitter.com/subiyacryolite">Twitter</a> and <a href="mailto:ifungandana@gmiul.com">email</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="box">
+      <div id="content">
+        {{ content }}       
+        <div id="footer">
+          <div id="footer_text">
+            <a href="/archives.html">Archives</a>, <a href="https://subiyacryolite.github.io/rss.xml" title="Full-text RSS feed">RSS Feed</a>, &copy; 2017+ Ifunga Ndana
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
