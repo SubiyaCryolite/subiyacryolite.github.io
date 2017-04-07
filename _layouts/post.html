@@ -3,12 +3,10 @@ layout: default
 ---
 <article class="hentry">
     <div class="item_details">
-        <h3 class="entry-title">{{ page.title }}</h3>
-        <h4><a href="{{ page.url }}" title="Permalink for this post">{{ page.date | date_to_long_string }}</a> by <a href="http://twitter.com/subiyacryolite">Ifunga Ndana</a></h4>
+        <h2 class="entry-title">{{ page.title }}</h2>
+        <p class="meta"><a href="{{ page.url }}" title="Permalink for this post">{{ page.date | date_to_long_string }}</a> by <a href="http://twitter.com/subiyacryolite">Ifunga Ndana</a></p>
     </div>
-    <div class="item_content">
-        {{ content }}
-    </div>
+    {{ content }}
     <div class="item_meta">
         <div class="item_tags">Tags:
             {% for tag in page.tags %}
@@ -20,7 +18,6 @@ layout: default
             {% if page.previous %}
             <a href="{{ page.previous.url }}" title="Previous post">previous</a>
             {% endif %}
-
             {% if page.next %}
             {% if page.previous %}, {% endif %}<a href="{{ page.next.url }}" title="Next post">next</a>
             {% endif %}

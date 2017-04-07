@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The SCND Genesis: Legends 1.8 released"
-topics: scnd genesis legends release
+categories: scnd genesis legends release
 ---
 Hello everybody. I’m pleased to announce that The SCND Genesis: Legends version 1.8 has been released.
 It has many new features, fixes and improvements. 
