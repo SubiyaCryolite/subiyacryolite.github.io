@@ -6,7 +6,7 @@ categories: scnd genesis legacy announcement lwjgl opengl java engine
 Hello everyone, I'm pleased to announce that the The SCND Genesis: Legacy is under active development. It is the direct 
 sequel to Legends. Just like its predecessor, it is being written in Java however it shall be accelerated via OpenGL (LWJGL).
 
-###Past...
+### Past...
 Legends aka Jenesis Engine 1.0 (JE1.0), happened almost by entirely by accident. The moment I could draw static 2D images 
 on a JPanel, I thought “Hey, I could actually make a game. It would probably suck, but I could do it”. Just like that, 
 Legends was born. I never took it seriously for the first 4 months, it was a hobby, done for bragging rights rather than anything else.
@@ -19,7 +19,7 @@ punish mindless spammers. Later on I added LAN play and a story campaign to boot
 I'm an avid gamer, and I wanted my game to have most of the  features of modern commercial games. Gradually, more AI, 
 variety and depth was added to the JE1.0.
 
-###Present...
+### Present...
 After 2 years of on and off (mostly off) development I can safely say that I'm largely done with the Legends. Truth be told, 
 it blew my initial expectations out of the water. I wasn't expecting much, just for it to circulate among my friends and 
 I on campus. But with over 6000 downloads around the globe, with less than $0 spent on advertising. I'm more than satisfied.
@@ -32,7 +32,7 @@ sight. Because of this, AI and game-play isn't as good as it could have been If 
 but I would be lying if I said it didn't hinder my “creative vision”. I should have spent more time in alpha and should 
 have gotten more input/feedback on game-play earlier on But hey! The purpose of making mistakes is to learn right? And did I learn a lot.
 
-###Future...</h3>
+### Future...
 So yeah, Legends is not a priority now, I'll still fix any lingering bugs and add a few new bells and whistles here and 
 there, but thats it. The game is open source BTW, so if you want to mess around, study or borrow the code be my guest.
 Legacy, is built on top of the Jenesis Engine 2.0 (JE 2.0), which in turn is built on top of Java and OpenGL via LWJGL 
