@@ -27,7 +27,7 @@ their effect in game and their FPS at 1080p. These are the development machines 
 - Tested in Ubuntu 12.04 64bit on JRE 1.7_3 platform
 
 The summary of each spec is shown below
-    <table class="my_table">
+<table>
         <tr>
             <th></th>
             <th>Ultra</th>
@@ -36,62 +36,62 @@ The summary of each spec is shown below
             <th>Low</th>
         </tr>
         <tr>
-            <th >Character Sprites</th>
+            <th>Character Sprites</th>
             <td>High</td>
             <td>High</td>
             <td>Medium</td>
             <td>Low</td>
         </tr>
         <tr>
-            <th >Environment Sprites</th>
+            <th>Environment Sprites</th>
             <td>High</td>
             <td>Medium</td>
             <td>Medium</td>
             <td>Low</td>
         </tr>
         <tr>
-            <th >Particle(Instance) Density</th>
+            <th>Particle(Instance) Density</th>
             <td>Ultra</td>
             <td>High</td>
             <td>Medium</td>
             <td>Low</td>
         </tr>
         <tr>
-            <th >Post Effects</th>
+            <th>Post Effects</th>
             <td>On</td>
             <td>On</td>
             <td>Off</td>
             <td>Off</td>
         </tr>
         <tr>
-            <th >Depth of Field</th>
+            <th>Depth of Field</th>
             <td>On</td>
             <td>Off</td>
             <td>Off</td>
             <td>Off</td>
         </tr>
         <tr>
-            <th >Bloom</th>
+            <th>Bloom</th>
             <td>On</td>
             <td>Off</td>
             <td>Off</td>
             <td>Off</td>
         </tr>
         <tr>
-            <th >Radial Blur</th>
+            <th>Radial Blur</th>
             <td>On</td>
             <td>On</td>
             <td>Off</td>
             <td>Off</td>
         </tr>
         <tr>
-            <th >Sketch Painting</th>
+            <th>Sketch Painting</th>
             <td>On</td>
             <td>On</td>
             <td>Off</td>
             <td>Off</td>
         </tr>
-    </table>
+</table>
 
 Click on the images to load the full-size 1080p shots.
 
@@ -101,14 +101,14 @@ Click on the images to load the full-size 1080p shots.
 ![High Quality](http://www.scndgen.com/blog/2012_08_23/scndgen_legacy_60_high_s.jpg)
 *Illustration 2: 1080p :: High Spec :: 60 fps average*
     
-![Medium Quality](http://www.scndgen.com/blog/2012_08_23/scndgen_legacy_82_med_s.jpg")
+![Medium Quality](http://www.scndgen.com/blog/2012_08_23/scndgen_legacy_82_med_s.jpg)
 *Illustration 3: 1080p :: Medium Spec :: 82 fps average*
     
 ![Low Quality](http://www.scndgen.com/blog/2012_08_23/scndgen_legacy_88_low.jpg)
 *Illustration 4: 1080p :: Low Spec :: 88 fps average* 
 
 The table below shows a summary of the results, as well as scores for a resolution of 1024 x 768.
-<table class="my_table">
+<table>
         <tr>
             <th></th>
             <th>Ultra</th>
@@ -117,14 +117,14 @@ The table below shows a summary of the results, as well as scores for a resoluti
             <th>Low</th>
         </tr>
         <tr>
-            <th >1920x1080</th>
+            <th>1920x1080</th>
             <td>29</td>
             <td>60</td>
             <td>82</td>
             <td>88</td>
         </tr>
         <tr>
-            <th >1024x768</th>
+            <th>1024x768</th>
             <td>64</td>
             <td>154</td>
             <td>244</td>
