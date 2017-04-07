@@ -13,4 +13,6 @@ That’s right, less than 5 hours after version 1.8’s release a new patch is a
 The SCND Genesis: Legends 1.8
 
 # Upgrades (patch 1.8b)
+<aside>
 <a href="http://www.scndgen.com/downloads/scndgen_patch18b.zip" class="button" target="_blank"><small>scndgen_patch18b</small>.zip file</a>
+</aside>

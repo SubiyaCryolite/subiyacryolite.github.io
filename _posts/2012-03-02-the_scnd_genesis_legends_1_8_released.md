@@ -20,7 +20,11 @@ Here are all the fixes:
 - New modular release structure (small updates as opposed to 100+ MB downloads).
 
 # Download
+<aside>
 <a href="http://sourceforge.net/projects/scndgen/files/executable/scndgen.zip/download" class="button" target="_blank"><small>scndgen</small>.zip file</a>
+</aside>
 
 # Upgrades (patch 1.8b)
+<aside>
 <a href="http://www.scndgen.com/downloads/scndgen_patch18b.zip" class="button" target="_blank"><small>scndgen_patch18b</small>.zip file</a>
+</aside>
