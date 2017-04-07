@@ -12,7 +12,7 @@ layout: nil
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <copyright>Copyright 2017+</copyright>
     <ttl>60</ttl>
-    <description>mathias meyer</description>
+    <description>Ifunga Ndana</description>
     {% for post in site.posts limit:10 %}
     <item>
       <title>{{ post.title }}</title>
