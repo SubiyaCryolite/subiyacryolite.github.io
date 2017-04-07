@@ -93,18 +93,19 @@ The summary of each spec is shown below
         </tr>
 </table>
 
+
 Click on the images to load the full-size 1080p shots.
 
-![Ultra Quality](http://www.scndgen.com/blog/2012_08_23/scndgen_legacy_29_ultra_s.jpg)
+![[Ultra Quality](http://www.scndgen.com/blog/2012_08_23/scndgen_legacy_29_ultra_s.jpg)](http://www.scndgen.com/blog/2012_08_23/scndgen_legacy_29_ultra.jpg)
 *Illustration 1: 1080p :: Ultra Spec :: 29 fps average*
     
-![High Quality](http://www.scndgen.com/blog/2012_08_23/scndgen_legacy_60_high_s.jpg)
+![[High Quality](http://www.scndgen.com/blog/2012_08_23/scndgen_legacy_60_high_s.jpg)](http://www.scndgen.com/blog/2012_08_23/scndgen_legacy_60_high.jpg)
 *Illustration 2: 1080p :: High Spec :: 60 fps average*
     
-![Medium Quality](http://www.scndgen.com/blog/2012_08_23/scndgen_legacy_82_med_s.jpg)
+![[Medium Quality](http://www.scndgen.com/blog/2012_08_23/scndgen_legacy_82_med_s.jpg)](http://www.scndgen.com/blog/2012_08_23/scndgen_legacy_82_med.jpg)
 *Illustration 3: 1080p :: Medium Spec :: 82 fps average*
     
-![Low Quality](http://www.scndgen.com/blog/2012_08_23/scndgen_legacy_88_low.jpg)
+![[Low Quality](http://www.scndgen.com/blog/2012_08_23/scndgen_legacy_88_low_s.jpg)](http://www.scndgen.com/blog/2012_08_23/scndgen_legacy_88_low.jpg)
 *Illustration 4: 1080p :: Low Spec :: 88 fps average* 
 
 The table below shows a summary of the results, as well as scores for a resolution of 1024 x 768.
@@ -131,6 +132,7 @@ The table below shows a summary of the results, as well as scores for a resoluti
             <td>264</td>
         </tr>
 </table>
+
 
 The Ultra Specs Depth of Field effect hammers performance, though it runs at a solid 60fps at lower resolutions. The games 
 performance is dependant on your selected resolution and your GPUs raw horsepower.
