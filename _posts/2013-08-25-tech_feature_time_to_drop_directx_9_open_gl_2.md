@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tech Feature - Time to drop DirectX 9/OpenGL 2"
-categories: "scnd" "genesis" "legacy" "development" "update" "opengl" "directx" "api"
+categories: scnd genesis legacy development update opengl directx api
 ---
 In case you missed it my current game is being written in OpenGL 3, which is basically the equivalent of DirectX 10. 
 When I made this decision in 2011 part of me was  worried that Id come to regret that  decision. Why?
