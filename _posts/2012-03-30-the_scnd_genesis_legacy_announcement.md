@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The SCND Genesis :: Legacy announcement"
-topics: scnd genesis legacy announcement lwjgl opengl java engine
+tags: [scnd,genesis,legacy,announcement,lwjgl,opengl,java,openal,engine]
 ---
 Hello everyone, I'm pleased to announce that the The SCND Genesis: Legacy is under active development. It is the direct 
 sequel to Legends. Just like its predecessor, it is being written in Java however it shall be accelerated via OpenGL (LWJGL).

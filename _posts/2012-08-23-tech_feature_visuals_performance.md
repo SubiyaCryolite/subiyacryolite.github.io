@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tech Feature - Visuals and Performance"
-topics: scnd genesis legacy development bug bugs quality tech java opengl fps buffer
+tags: [scnd,genesis,legacy,development,bug,bugs,quality,tech,java,opengl,fps,buffer]
 ---
 This is the first entry in my tech feature series, which will help give you a better understanding of the  tech powering Legacy. Legacy is built on top of the <a href="http://www.moddb.com/engines/jenesis-engine" target="_blank">Jenesis Engine</a> (JE) which is written in Java. The Jenesis Engine uses an OpenGL wrapper library called <a href="http://en.wikipedia.org/wiki/Java_OpenGL" target="_blank">JOGL</a> to render 3D graphics.  </span>
 
