@@ -2,6 +2,7 @@
 layout: post
 title: "The SCND Genesis: Legends 1.7 Reviewed"
 tags: [scnd,genesis,legends,review]
+id: blog_120229_17_review
 ---
 
 I'm pleased to announce that the game got its first official review.
