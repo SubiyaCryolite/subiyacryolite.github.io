@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The SCND Genesis: Legends patch 1.8b released"
-categories: scnd genesis legends release patch
+topics: scnd genesis legends release patch
 ---
 That’s right, less than 5 hours after version 1.8’s release a new patch is available.
 

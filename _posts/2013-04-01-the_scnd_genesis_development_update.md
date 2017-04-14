@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The SCND Genesis - Development Update"
-categories: scnd genesis legacy development update
+topics: scnd genesis legacy development update
 ---
 Hi guys, I’m back from outer space. So much has happened since my last blog post. I’ve co-founded a new promising company 
 with some very talented guys, I got formal employment, I trashed my mum’s car, and you know the usual stuff.

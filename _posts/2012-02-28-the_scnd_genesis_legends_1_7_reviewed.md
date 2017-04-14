@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The SCND Genesis: Legends 1.7 Reviewed"
-categories: scnd genesis legends review
+topics: scnd genesis legends review
 ---
 
 I'm pleased to announce that the game got its first official review.
