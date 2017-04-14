@@ -24,10 +24,6 @@ nav:
   Github Project:
     - 'http://subiyacryolite.github.io/'
 
-# Where are tags and categories displayed
-tag_page: '/blog/tags/'
-category_page: '/blog/categories/'
-
-google_analytics_token: UA-24270377-1
-google_analytics: UA-24270377-1
+google_analytics_token: UA-24270377-2
+google_analytics: UA-24270377-2
 disqus_short_name: 'thescndgenesisofficialsite'
