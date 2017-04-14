@@ -2,7 +2,7 @@
 layout: post
 title: "Development Ramblings – Bugs, bugs, lots of bugs"
 tags: [scnd,genesis,legends,development,bug,bugs,quality]
-id: blog_120305_devram
+disqus_identifier: blog_120305_devram
 ---
 Ever since the game made drastic changes in the transition from version 1.7 to 1.8 a whole load of bugs have popped up.
 
