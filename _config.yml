@@ -1,6 +1,6 @@
 theme: jekyll-theme-architect
 permalink: /:year/:i_month/:i_day/:title.html
-exclude: [Rakefile, Gemfile, Gemfile.lock, README.md, Capfile, bin, s3_website.yml, tmp]
+exclude: [README.md]
 paginate: 3
 # About/contact
 author:
@@ -10,19 +10,6 @@ author:
     linkedin:  http://www.linkedin.com/pub/ifunga-ndana/44/a30/667
     github:    https://github.com/SubiyaCryolite
     twitter:   https://twitter.com/SubiyaCryolite
-
-# Navigation (2nd level links supported)
-nav:
-  Home:
-    - '/'
-  Blog:
-    - '/blog/'
-    - { Categories: '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
-  About:
-    - '/about/'
-  Github Project:
-    - 'http://subiyacryolite.github.io/'
 
 google_analytics_token: UA-24270377-2
 google_analytics: UA-24270377-2
