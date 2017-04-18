@@ -4,9 +4,8 @@ title: "Introducing the Jenesis Data Store"
 tags: [jenesis,data,store,database,db,mysql,postgres,sqlite,code,java]
 disqus_identifier: jenesis_data_store
 ---
-# The Problem
 
-I was working on a separate project (more on that later) and quickly got frustrated whenever I had to update my database design. This was a by-product of rapidly altering my programs workflows and thus class definitions. I realised that I needed a more effective way to make changes to my backend in order to improve turnaround times.
+So, I was working on a project and frequently got frustrated whenever I had to update my database design. This was a by-product of rapidly altering my programs workflows and thus class definitions. I realised that I needed a more effective way to make changes to my backend in order to improve turnaround times.
 
 As someone who was only familiar with relational databases (sorry, NoSQL) I decided to investigate the use of Object Relational Models(ORMS). However, I am really, REALLY, lazy. I couldn’t bring myself to read official documentation nor to fully understand how they worked. Furthermore, conventional ORMS seemed to require mapping classes to defined Schemas in the backend, what I wanted to avoid in the first place.
 
