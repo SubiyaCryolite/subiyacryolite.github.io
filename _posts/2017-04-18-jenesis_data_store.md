@@ -34,7 +34,7 @@ JDS is licensed under the [3-Clause BSD License](https://opensource.org/licenses
 - Eager Loading is applied to embedded objects as well as on collections
 
 ## Design
-The concept behind JDS is quite simple. Extend a base "Entity" class, define "Fields" or a particular datatype and lastly "Map" the said fields to a Java property. Done.
+The concept behind JDS is quite simple. Extend a base "Entity" class, define "Fields" of a particular datatype and lastly "Map" the said fields to a Java property. Done.
 
 A detailed tutorial on how to use the library follows below.
 
@@ -191,18 +191,29 @@ import java.time.ZonedDateTime;
 
 @JdsEntityAnnotation(entityId = 3, entityName = "Type Class")
 public class TypeClass extends JdsEntity {
-    private final SimpleStringProperty stringField = new SimpleStringProperty("");
-    private final SimpleObjectProperty<LocalTime> timeField = new SimpleObjectProperty<LocalTime>(LocalTime.now());
-    private final SimpleObjectProperty<LocalDate> dateField = new SimpleObjectProperty<LocalDate>(LocalDate.now());
-    private final SimpleObjectProperty<LocalDateTime> dateTimeField = new SimpleObjectProperty<LocalDateTime>(LocalDateTime.now());
-    private final SimpleObjectProperty<ZonedDateTime> zonedDateTimeField = new SimpleObjectProperty<ZonedDateTime>(ZonedDateTime.now());
-    private final SimpleLongProperty longField = new SimpleLongProperty(0);
-    private final SimpleIntegerProperty intField = new SimpleIntegerProperty(0);
-    private final SimpleDoubleProperty doubleField = new SimpleDoubleProperty(0);
-    private final SimpleFloatProperty floatField = new SimpleFloatProperty(0);
-    private final SimpleBooleanProperty booleanField = new SimpleBooleanProperty(false);
+    private final SimpleStringProperty stringField;
+    private final SimpleObjectProperty<LocalTime> timeField;
+    private final SimpleObjectProperty<LocalDate> dateField;
+    private final SimpleObjectProperty<LocalDateTime> dateTimeField;
+    private final SimpleObjectProperty<ZonedDateTime> zonedDateTimeField;
+    private final SimpleLongProperty longField;
+    private final SimpleIntegerProperty intField;
+    private final SimpleDoubleProperty doubleField;
+    private final SimpleFloatProperty floatField;
+    private final SimpleBooleanProperty booleanField;
 
     public TypeClass() {
+        stringField = new SimpleStringProperty("");
+        timeField = new SimpleObjectProperty<LocalTime>(LocalTime.now());
+        dateField = new SimpleObjectProperty<LocalDate>(LocalDate.now());
+        dateTimeField = new SimpleObjectProperty<LocalDateTime>(LocalDateTime.now());
+        zonedDateTimeField = new SimpleObjectProperty<ZonedDateTime>(ZonedDateTime.now());
+        longField = new SimpleLongProperty(0);
+        intField = new SimpleIntegerProperty(0);
+        doubleField = new SimpleDoubleProperty(0);
+        floatField = new SimpleFloatProperty(0);
+        booleanField = new SimpleBooleanProperty(false);
+        //map
         map(NewTestFields.STRING_FIELD, stringField);
         map(NewTestFields.DATE_FIELD, dateField);
         map(NewTestFields.TIME_FIELD, timeField);
