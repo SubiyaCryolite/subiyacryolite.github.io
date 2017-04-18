@@ -38,7 +38,7 @@ The concept behind JDS is quite simple. Extend a base "Entity" class, define "Fi
 
 A detailed tutorial on how to use the library follows below.
 
-#Latest Version
+# Latest Version
 Currently the latest version is [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.subiyacryolite/jds/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.subiyacryolite/jds)
 
 # Using the library
@@ -226,7 +226,16 @@ public class TypeClass extends JdsEntity {
         map(NewTestFields.BOOLEAN_FIELD, booleanField);
     }
 
-    public TypeClass(String str, LocalTime timeField, LocalDate localDate, LocalDateTime localDateTime, ZonedDateTime zonedDateTime, long l, int i, double d, float f, boolean b) {
+    public TypeClass(String str, 
+                     LocalTime timeField, 
+                     LocalDate localDate, 
+                     LocalDateTime localDateTime, 
+                     ZonedDateTime zonedDateTime, 
+                     long l, 
+                     int i, 
+                     double d, 
+                     float f, 
+                     boolean b) {
         this();
         setStringField(str);
         setTimeField(timeField);
