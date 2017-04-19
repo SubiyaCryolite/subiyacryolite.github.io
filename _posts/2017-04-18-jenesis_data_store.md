@@ -6,7 +6,7 @@ disqus_identifier: jenesis_data_store
 ---
 So, I was working on a project and frequently got frustrated whenever I had to update my database design. This was a by-product of rapidly altering my programs workflows and thus class definitions. I realised that I needed a more effective way to make changes to my backend in order to improve turnaround times.
 
-As someone who was only familiar with relational databases (sorry, NoSQL) I decided to investigate the use of Object Relational Models(ORMS). However, I am really, REALLY, lazy. I couldn’t bring myself to read official documentation nor to fully understand how they worked. Furthermore, conventional ORMS seemed to require mapping classes to defined Schemas in the backend, what I wanted to avoid in the first place.
+As someone who was only familiar with relational databases (sorry, NoSQL) I decided to investigate the use of Object Relational Mappers(ORMs). However, I am really, REALLY, lazy. I couldn’t bring myself to read official documentation nor to fully understand how they worked. Furthermore, conventional ORMS seemed to require mapping classes to defined Schemas in the backend, what I wanted to avoid in the first place.
 
 Given all that I decided to create a library that would allow me to easily create classes and persist data in a relational schema without requiring me to design each relation or worry about modifying their structures.
  
