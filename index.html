@@ -4,16 +4,16 @@ title: Ifunga Ndana
 hide_twitter_card: true
 ---
 <div id="articles">
-    {% for post in paginator.posts limit:5 %}
+    {% for post in paginator.posts %}
     <article>
         <div class="item">
             <div class="item_details">
-                <a href="{{ post.url }}">{{ post.title }}</a><br/>
+                <header><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></header>
                 <small><a href="{{ post.url }}" title="{{ post.title }}">{{ post.date | date_to_long_string }}</a> by <a
                         href="http://twitter.com/SubiyaCryolite">Ifunga Ndana</a></small>
             </div>
             <div class="item_content">
-                {{ post.excerpt }}... <a href="{{ post.url }}" title="{{ post.title }}">read more</a>
+                {{ post.excerpt }}
             </div>
         </div>
     </article>
