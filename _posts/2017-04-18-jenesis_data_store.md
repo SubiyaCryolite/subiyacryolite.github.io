@@ -422,7 +422,7 @@ String databaseLocation = "jdbc:sqlite:" + getDatabaseFileLocation();
 SQLiteConfig sqLiteConfig = new SQLiteConfig();
 sqLiteConfig.enforceForeignKeys(true); //You must enable foreign keys in SQLite
 jdsDataBase.setConnectionProperties(databaseLocation, sqLiteConfig.toProperties());
-jdsDataBase.init(); //prepareDatabaseComponent() in 1.170402
+jdsDataBase.init();
 ```
 With this you should have a valid connection to your database and JDS will setup its tables and procedures automatically. Furthermore, you can use the **getConnection()** method from your JdsDataBase instance in order to return a standard **java.sql.Connection** in your application. 
 
@@ -549,7 +549,7 @@ Section coming soon, but it looks like this
 I highly recommend the use of the [IntelliJ IDE](https://www.jetbrains.com/idea/download/) for development.
 
 # Contributing to Jenesis Data Store
-If you would like to contribute code you can do so through GitHub by forking the repository and sending a pull request targeting the current development branch.
+If you would like to contribute code you can do so through [Github](https://github.com/SubiyaCryolite/Jenesis-Data-Store/) by forking the repository and sending a pull request targeting the current development branch.
 
 When submitting code, please make every effort to follow existing conventions and style in order to keep the code as readable as possible.
 
