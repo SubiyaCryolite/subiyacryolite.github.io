@@ -4,7 +4,7 @@ title: Ifunga Ndana
 hide_twitter_card: true
 ---
 <div id="articles">
-    {% for post in paginator.posts limit:1 %}
+    {% for post in paginator.posts limit:4 %}
     <article>
         <div class="item">
             <div class="item_details">
@@ -13,7 +13,7 @@ hide_twitter_card: true
                         href="http://twitter.com/SubiyaCryolite">Ifunga Ndana</a></h2>
             </div>
             <div class="item_content">
-                {{ post.content }}
+                {{ post.excerpt }}
             </div>
         </div>
     </article>
