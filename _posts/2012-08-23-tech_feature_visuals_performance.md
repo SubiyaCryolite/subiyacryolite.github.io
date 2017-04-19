@@ -4,7 +4,7 @@ title: "Tech Feature - Visuals and Performance"
 tags: [scnd,genesis,legacy,development,bug,bugs,quality,tech,java,opengl,fps,buffer]
 disqus_identifier: blog_120823_legacy_tech
 ---
-This is the first entry in my tech feature series, which will help give you a better understanding of the  tech powering Legacy. Legacy is built on top of the <a href="http://www.moddb.com/engines/jenesis-engine" target="_blank">Jenesis Engine</a> (JE) which is written in Java. The Jenesis Engine uses an OpenGL wrapper library called <a href="http://en.wikipedia.org/wiki/Java_OpenGL" target="_blank">JOGL</a> to render 3D graphics.  </span>
+This is the first entry in my tech feature series, which will help give you a better understanding of the  tech powering Legacy. Legacy is built on top of the <a href="http://www.moddb.com/engines/jenesis-engine" target="_blank">Jenesis Engine</a> (JE) which is written in Java. The Jenesis Engine uses an OpenGL wrapper library called <a href="http://en.wikipedia.org/wiki/Java_OpenGL" target="_blank">JOGL</a> to render 3D graphics.
 
 The specific version of OpenGL being used is 3.2 Core along with GLSL 1.5. In Windows terms, this is the equivalent of DirectX 10 with Shader Model 4. This spec is fully supported across Linux, Mac OSX and Windows. If you have any GPU from Nvidia or AMD then your machine is probably capable of rendering with OpenGL 3.2. Only the most recent iterations of Intel GPUs fully implement this spec.
 
