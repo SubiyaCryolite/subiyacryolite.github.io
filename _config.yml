@@ -1,7 +1,7 @@
 theme: jekyll-theme-architect
 permalink: /:year/:i_month/:i_day/:title.html
 exclude: [README.md]
-paginate: 3
+paginate: 5
 # About/contact
 author:
   name: Ifunga Ndana
@@ -10,7 +10,5 @@ author:
     linkedin:  http://www.linkedin.com/pub/ifunga-ndana/44/a30/667
     github:    https://github.com/SubiyaCryolite
     twitter:   https://twitter.com/SubiyaCryolite
-
-google_analytics_token: UA-24270377-2
 google_analytics: UA-24270377-2
 disqus_short_name: 'thescndgenesisofficialsite'
